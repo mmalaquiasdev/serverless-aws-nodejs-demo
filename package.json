@@ -1,0 +1,29 @@
+{
+  "name": "serverless-aws-nodejs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "serverless-http": "^1.5.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmalaquiasdev/serverless-aws-nodejs-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmalaquiasdev/serverless-aws-nodejs-demo/issues"
+  },
+  "homepage": "https://github.com/mmalaquiasdev/serverless-aws-nodejs-demo#readme"
+}
