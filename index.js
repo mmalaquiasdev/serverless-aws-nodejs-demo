@@ -1,10 +1,4 @@
 const serverless = require('serverless-http');
-const express = require('express');
+const api = require('./src/api');
 
-const app = express();
-
-app.get('/', (req, res) => {
-  res.send('Hello World ><');
-});
-
-module.exports.handler = serverless(app);
+module.exports.handler = serverless(api);
