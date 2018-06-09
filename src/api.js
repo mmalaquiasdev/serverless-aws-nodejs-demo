@@ -12,7 +12,7 @@ const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 app.get('/', (req, res) => {
   console.log(req);
-  res.send('Hello World ><');
+  res.send('Welcome to Bahia :)');
 });
 
 app.get('/users/:userId', (req, res) => {
