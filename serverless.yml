@@ -1,5 +1,8 @@
 service: mm-serverless-aws-nodejs-demo
 
+plugins:
+  - serverless-offline
+
 custom:
   tableName: 'mm-demo-users-table-${self:provider.stage}'
 
